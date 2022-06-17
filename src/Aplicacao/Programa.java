@@ -39,9 +39,9 @@ public class Programa {
 		}
 		
 		if(!f.venceu(segredo)) {
-			JOptionPane.showMessageDialog(null, "Parabéns!!! \nVocê venceu!!! \nA palavra era: " + palavra );
+			JOptionPane.showMessageDialog(null, "ParabÃ©ns!!! \nVocÃª venceu!!! \nA palavra era: " + palavra );
 		}else {
-			JOptionPane.showMessageDialog(null, "Você foi enforcado!!! \n" + f.getBoneco() + "\nA palavra era: " + palavra);
+			JOptionPane.showMessageDialog(null, "VocÃª foi enforcado!!! \n" + f.getBoneco() + "\nA palavra era: " + palavra);
 		}
 		
 	}
